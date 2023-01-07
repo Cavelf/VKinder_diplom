@@ -17,7 +17,7 @@ longpoll = VkLongPoll(vk)
 def get_params(add_params: dict = None):
     params = {
         'access_token': USER_TOKEN,
-        'v': '5.107'
+        'v': '5.131'
     }
     if add_params:
         params.update(add_params)
